@@ -36,6 +36,6 @@ app.use("/posts", postRouter)
 
 
 
-app.listen(port, function () {
+app.listen(port, () => {
     console.log("il server è in ascolto sulla porta " + port);
 })
