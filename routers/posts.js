@@ -33,7 +33,7 @@ router.put("/:id", (req, res) => {
 //MODIFY
 router.patch("/:id", (req, res) => {
     const id = req.params.id;
-    res.send("aggiorna parzialemte post n." + id)
+    res.send("aggiorna parzialmente post n." + id)
 })
 
 //DESTROY
